@@ -53,6 +53,16 @@ export default [
     },
   },
   {
+    label: 'ParFlow',
+    icon: 'mdi-waves',
+    description: 'ParFlow is a parallel, integrated hydrology model that simulates spatially distributed surface and subsurface flow, as well as land surface processes.',
+    acknowledgement: 'Example by Kitware Inc.',
+    model: {
+      type: 'pftools',
+      data: {},
+    },
+  },
+  {
     label: 'Create your own model type',
     icon: 'mdi-file-plus',
     description: 'Click here to learn how to create your own type.',

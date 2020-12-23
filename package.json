@@ -39,6 +39,7 @@
     "type:openfoam-windtunnel": "node ./src/cli/simput-cli.js -c ./types/openfoam-windtunnel/src -o ./static/types -t openfoam-windtunnel",
     "type:oscillator": "node ./src/cli/simput-cli.js -c ./types/oscillator/src -o ./static/types -t oscillator",
     "type:pyfr": "node ./src/cli/simput-cli.js -c ./types/pyfr/src -o ./static/types -t pyfr",
+    "type:pftools": "node ./src/cli/simput-cli.js -c ./types/pftools/src -o ./static/types -t pftools",
     "type:test": "node ./src/cli/simput-cli.js -c ./types/test/src -o ./static/types -t test",
     "type:vcard": "node ./src/cli/simput-cli.js -c ./types/vcard/src -o ./static/types -t vcard",
     "type:vera": "node ./src/cli/simput-cli.js -c ./types/vera/src -o ./static/types -t vera",
@@ -72,7 +73,7 @@
     "write-file-webpack-plugin": "4.3.2"
   },
   "bin": {
-    "Simput": "./src/cli/simput-cli.js"
+    "Simput": "src/cli/simput-cli.js"
   },
   "preferGlobal": true,
   "config": {
